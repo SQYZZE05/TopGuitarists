@@ -1,0 +1,14 @@
+.image-text-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .image-text-container img {
+    width: 200px;
+    height: auto;
+  }
+  .custom-cursor {
+    cursor: url('cr.png'), auto;
+  }

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Топ гітар світу</title>
+  <link rel="stylesheet" href="top_guitar.css">
+  <link rel="icon" href="1g.jpg" type="image/x-icon">
+</head>
+<body class="custom-cursor">
+  <header>
+    <div class="dropdown" class="custom-cursor">
+      <button class="menu-button">Зміст</button>
+      <div class="dropdown-content">
+        <button onclick="window.open('epoche_of_guitarists.html', '_blank')">Винекнення епохи гітаристів</button>
+        <button onclick="window.open('top_guitar.html', '_blank')">Топ гітар всього часу</button>
+        <button onclick="window.open('index.html', '_blank')">Топ гітаристів</button>
+      </div>
+    </div>
+    <h1>Топ гітар світу</h1>
+  </header>
+
+  <!-- Тут можуть бути інші елементи сторінки -->
+  
+  <footer>
+    Це нижній колонтитул
+  </footer>
+
+  <script>
+    // JavaScript для випливаючих кнопок
+    var menuButton = document.querySelector('.menu-button');
+    var dropdownContent = document.querySelector('.dropdown-content');
+    
+    menuButton.addEventListener('click', function() {
+      dropdownContent.style.display = (dropdownContent.style.display === 'block') ? 'none' : 'block';
+    });
+  </script>
+</body>
+</html>
