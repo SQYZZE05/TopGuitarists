@@ -8,13 +8,25 @@
 <body class="custom-cursor">
   <header>
     <div class="dropdown" class="custom-cursor">
-      <button class="menu-button">Зміст</button>
+      <button class="menu-button">Зміст</button> 
+      <button onclick="goToHomePage()">Головна сторінка</button>
+
+<script>
+  function goToHomePage() {
+    window.location.href = "index.html"; // Замініть "index.html" на URL вашої головної сторінки
+  }
+</script> 
       <div class="dropdown-content">
         <button onclick="window.open('epoche_of_guitarists.html', '_blank')">Винекнення епохи гітаристів</button>
         <button onclick="window.open('top_guitar.html', '_blank')">Топ гітар всього часу</button>
         <button onclick="window.open('index.html', '_blank')">Топ гітаристів</button>
       </div>
     </div>
+    <div>
+      <button onclick="window.open('news.html', '_blank')">Новини</button>
+        <button onclick="window.open('contacts.html', '_blank')">Контакти</button>
+    </div>
+  
     <h1>Топ 5 гітаристів світу</h1>
   </header>
 <h1>Джеймз Маршалл «Джимі» Гендрікс</h1>
@@ -83,7 +95,7 @@
     </p>
 </div>
   <footer>
-    Це нижній колонтитул
+    Любарець Владислав 2023
   </footer>
 
   <script>
